@@ -58,6 +58,14 @@
     "./actors": {
       "import": "./dist/mjs/actors/index.js",
       "require": "./dist/cjs/actors/index.js"
+    },
+    "./api/HttpClient": {
+      "import": "./dist/mjs/api/HttpClient.js",
+      "require": "./dist/cjs/api/HttpClient.js"
+    },
+    "./api/services/coinmarketcap": {
+      "import": "./dist/mjs/api/services/coinmarketcap.js",
+      "require": "./dist/cjs/api/services/coinmarketcap.js"
     }
   },
   "scripts": {
@@ -110,6 +118,7 @@
     "@types/secp256k1": "^4.0.3",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
+    "axios-mock-adapter": "^1.21.4",
     "dotenv": "^16.0.3",
     "eslint": "^8.33.0",
     "eslint-plugin-tsdoc": "^0.2.17",
