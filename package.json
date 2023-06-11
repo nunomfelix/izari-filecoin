@@ -66,6 +66,10 @@
     "./api/services/coinmarketcap": {
       "import": "./dist/mjs/api/services/coinmarketcap.js",
       "require": "./dist/cjs/api/services/coinmarketcap.js"
+    },
+    "./api/services/coingecko": {
+      "import": "./dist/mjs/api/services/coingecko.js",
+      "require": "./dist/cjs/api/services/coingecko.js"
     }
   },
   "scripts": {

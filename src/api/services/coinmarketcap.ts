@@ -7,7 +7,6 @@ import {
   MetadataResponse
  } from '../../artifacts/api/coinmarketcap';
 
-
 interface CoinMarketCapArgs {
   apiKey: string;
   baseURL?: string;
